@@ -2,7 +2,7 @@
 
 ## Overview
 
-Quantum Dilated CNN 중 하나
+Quantum Dilated CNN...
 
 ## Getting Started
 
