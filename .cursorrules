@@ -1,0 +1,67 @@
+# Cursor AI Rules for Research Project
+
+## Project Context
+
+This is a research project focused on Quantum Dilated Convolutional Neural Networks (QDCNNs). The project combines quantum machine learning with classical deep learning for image recognition tasks.
+
+## Project Structure
+
+- `src/` - Source code (models, data processing, training)
+- `experiments/` - Experiment configurations and results
+- `working_notes/` - Research notes, literature reviews, plans
+- `docs/` - Documentation and decisions
+- `notebooks/` - Jupyter notebooks for exploration
+- `scripts/` - Utility scripts for setup and execution
+
+## Coding Style
+
+- Use Python type hints for function signatures
+- Follow PEP 8 style guidelines
+- Use descriptive docstrings (Google style)
+- Keep functions focused and modular
+- Comment complex logic, especially quantum operations
+
+## Research Notes Style
+
+- `working_notes/literature/` - Paper summaries focused on concepts
+- `working_notes/daily_log/` - Daily reading notes and connections
+- Use markdown links to connect related files: `[[path/to/file.md]]`
+- Keep notes concise and concept-focused
+
+## File Naming Conventions
+
+- Experiments: `0001_name/`, `0002_name/`
+- Literature: `YYYY-MM-DD_paperTitle.md`
+- Daily logs: `YYYY-MM-DD.md`
+- Config files: `config.yaml`
+
+## Key Concepts
+
+- **QDCNN**: Quantum Dilated Convolutional Neural Networks
+- **Dilated Convolution**: Expanding receptive field with dilation rate
+- **NISQ Era**: Noisy Intermediate-Scale Quantum devices
+- Focus on understanding concepts, not just implementation
+
+## When Writing Code
+
+- Add docstrings explaining the purpose and key concepts
+- Include type hints
+- For quantum operations, explain the quantum concept being used
+- Reference related papers or notes when relevant
+
+## When Suggesting Changes
+
+- Consider the research context and learning goals
+- Maintain connections to literature and working notes
+- Keep experiments reproducible and well-documented
+- Suggest improvements that enhance understanding, not just performance
+
+## Templates
+
+For consistency, each subdirectory may contain a `template.md`
+that defines the default structure for documents in that folder.
+
+When creating or editing files:
+- Refer to the local `template.md` if it exists
+- Use the template as a guideline, not a strict requirement
+- Deviations are allowed when conceptually necessary

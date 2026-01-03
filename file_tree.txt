@@ -1,0 +1,94 @@
+.
+├── .gitignore
+├── CITATION.cff
+├── LICENSE
+├── README.md
+├── docs
+│   ├── ideas
+│   │   ├── 0001-problem-scope.md
+│   │   └── 0002-baseline-choice.md
+│   ├── index.md
+│   ├── meetings
+│   │   └── 2026-12-23_kickoff.md
+│   ├── study_designs
+│   │   └── 0001-test.md
+│   └── todo.md
+├── env
+│   ├── environment.yml
+│   └── requirements.txt
+├── experiments
+│   ├── 0001_baseline_repro
+│   │   ├── README.md
+│   │   ├── config.yaml
+│   │   ├── results
+│   │   │   ├── metrics.json
+│   │   │   └── notes.md
+│   │   └── run.sh
+│   └── 0002_ablation_x
+│       ├── README.md
+│       ├── config.yaml
+│       ├── results
+│       │   ├── metrics.json
+│       │   └── notes.md
+│       └── run.sh
+├── file_tree.txt
+├── working_notes
+│   ├── analysis_plan
+│   │   ├── ablations.md
+│   │   ├── hypotheses.md
+│   │   └── stats_plan.md
+│   ├── baselines
+│   │   ├── README.md
+│   │   ├── reproduction_log.md
+│   │   └── upstream_links.md
+│   ├── benchmarks
+│   │   ├── benchmark_plan.md
+│   │   └── metrics.md
+│   ├── data_plan
+│   │   ├── data_sources.md
+│   │   ├── preprocessing.md
+│   │   └── splits.md
+│   ├── ideas
+│   │   ├── experiments_queue.md
+│   │   └── idea_bank.md
+│   ├── literature
+│   │   ├── 2026-01-03_paperA.md
+│   │   ├── 2026-01-04_paperB.md
+│   │   ├── README.md
+│   │   └── bib
+│   │       └── references.bib
+│   └── notes
+│       ├── 2026-01-03_cursor-usage.md
+│       ├── 2026-01-04_debug-log.md
+│       └── 2026-01-04_ideas.md
+├── notebooks
+│   ├── 00_sanity_check.ipynb
+│   ├── 01_data_exploration.ipynb
+│   └── 02_results_viz.ipynb
+├── reports
+│   ├── figures
+│   ├── tables
+│   └── weekly
+│       └── 2026-W01.md
+├── scripts
+│   ├── download_data.sh
+│   ├── run_baseline.sh
+│   └── setup_env.sh
+├── src
+│   ├── __init__.py
+│   ├── config
+│   │   └── default.yaml
+│   ├── data
+│   │   ├── datasets.py
+│   │   └── preprocessing.py
+│   ├── models
+│   │   ├── baseline_model.py
+│   │   └── my_model.py
+│   ├── training
+│   │   ├── eval.py
+│   │   └── train.py
+│   └── utils
+│       ├── logging.py
+│       └── seed.py
+└── test
+    └── tt.py

@@ -1,0 +1,18 @@
+# Experiment 0002: Ablation X Configuration
+
+# Inherit from default config
+_base_: "../config/default.yaml"
+
+# Experiment-specific overrides
+experiment:
+  name: "0002_ablation_x"
+  description: "Ablation study: X"
+
+# Model
+model:
+  name: "my_model"
+
+# Training
+training:
+  epochs: 100
+
