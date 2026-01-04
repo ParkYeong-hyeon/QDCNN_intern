@@ -64,3 +64,13 @@ Thumbs.db
 experiments/*/checkpoints/
 experiments/*/logs/
 
+# 미팅 내용은 우선 비공개로 > docs/meetings/은 추상적으로 요약
+working_notes/meeting_log/
+working_notes/meeting_log/*
+
+# local only
+working_notes/sc
+
+# not needed
+LiCENSE.md
+LiCENSE

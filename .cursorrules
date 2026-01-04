@@ -2,6 +2,10 @@
 
 ## Project Context
 
+⚠️ **Important Context Anchor**  
+To understand the overall research direction, assumptions, and current focus of this project,  
+**always refer to `working_notes/project_overview.md` first** before making high-level suggestions or changes.
+
 This is a research project focused on Quantum Dilated Convolutional Neural Networks (QDCNNs). The project combines quantum machine learning with classical deep learning for image recognition tasks.
 
 ## Project Structure
@@ -56,12 +60,6 @@ This is a research project focused on Quantum Dilated Convolutional Neural Netwo
 - Keep experiments reproducible and well-documented
 - Suggest improvements that enhance understanding, not just performance
 
-## Templates
-
-For consistency, each subdirectory may contain a `template.md`
-that defines the default structure for documents in that folder.
-
-When creating or editing files:
-- Refer to the local `template.md` if it exists
-- Use the template as a guideline, not a strict requirement
-- Deviations are allowed when conceptually necessary
+## Before pushing to GitHub:
+comment out or remove all blocks between
+`<!-- LOCAL-ONLY: begin -->` and `<!-- LOCAL-ONLY: end -->`

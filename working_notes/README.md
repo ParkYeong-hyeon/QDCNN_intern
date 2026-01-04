@@ -4,14 +4,17 @@ This directory contains research notes, literature reviews, and planning documen
 
 ## Structure
 
-- `literature/` - Paper summaries and bibliography (concept-focused)
+- `literature/` - Paper summaries and bibliography (paper-focused)
+- `concepts/` - Paper summaries and bibliography (concepts-focused)
 - `daily_log/` - Daily reading notes with connections between papers and ideas
 - `ideas/` - Idea bank and experiment queue
-- `baselines/` - Baseline reproduction logs and links
-- `benchmarks/` - Benchmark plans and metrics
-- `data_plan/` - Data source and preprocessing plans
-- `analysis_plan/` - Analysis plans, hypotheses, and ablation studies
-- `notes/` - General notes and logs
+- `experiment_design/` - Experimental design artifacts, including baseline definitions, benchmark plans, data preprocessing strategies, and analysis protocols.
+    - `baselines/` - Baseline plans
+    - `benchmarks/` - Benchmark plans and metrics
+    - `data_plan/` - Data source and preprocessing plans
+  - `analysis_plan/` - Analysis plans, hypotheses, ablation studies, and evaluation logic
+- `meeting_log/` - Raw internal meeting logs (kept private and not included in the public repository)
+- `scrrible/` - raw scratchpad capturing exploratory thoughts and questions. (may be removed later)
 
 ## Usage
 

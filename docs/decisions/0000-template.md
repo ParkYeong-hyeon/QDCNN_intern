@@ -1,4 +1,4 @@
-# ADR 0002: Quantum Data Usage
+# ADR 0000: 
 
 **Status**: Proposed  
 **Date**: 2026-01-03  
@@ -6,11 +6,11 @@
 
 ## Context
 
-What baseline methods are we considering and why?
+What is the issue that we're seeing that is motivating this decision or change?
 
 ## Decision
 
-We will use [baseline name] as our baseline because...
+We will...
 
 ## Consequences
 

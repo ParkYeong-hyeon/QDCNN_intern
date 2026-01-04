@@ -1,8 +1,8 @@
-# Experiment 0002: Ablation X
+# Experiment 0000: template
 
 ## Purpose
 
-Ablation study for component X.
+TBD
 
 ## Hypothesis
 

@@ -1,8 +1,4 @@
-# Documentation Index
-
-Welcome to the project documentation.
-
-## Project Overview  
+# Project Overview  
 **Quantum Dilated CNN vs QCNN: A Comparative Study**
 
 > **Note**  
@@ -11,24 +7,24 @@ Welcome to the project documentation.
 > *Prior laboratory implementation*: https://github.com/JHPark9090/QuantumDilatedCNN.git
 
 ---
-### Study Rationale
+## Study Rationale
 
-#### Background
+### Background
 Quantum Convolutional Neural Networks (QCNNs) are a representative architecture in quantum machine learning, particularly for image-like data.  
 The original QCNN architecture (Cong et al., 2019) relies on **nearest-neighbor entanglement**, where quantum gates act only on adjacent qubits.
 
-#### Hypothesis
+### Hypothesis
 This study explores whether **dilated (non-adjacent) entanglement patterns** can provide qualitative advantages by:
 - enabling long-range information flow,
 - reducing effective circuit depth,
 - and altering the global structure of entanglement.
 
-#### Research Questions
+### Research Questions
 - How do dilated and nearest-neighbor entanglement patterns differ structurally?
 - How are these differences reflected in entanglement, correlation, and capacity-related metrics?
 - Do these structural differences translate into meaningful model behavior?
 
-#### Architectures Compared
+### Architectures Compared
 
 | Architecture | Entanglement Pattern |
 |-------------|----------------------|
@@ -37,7 +33,7 @@ This study explores whether **dilated (non-adjacent) entanglement patterns** can
 
 ---
 
-### Quantum Circuit Metrics (Conceptual)
+## Quantum Circuit Metrics (Conceptual)
 
 The architectures are compared using metrics that characterize **entanglement structure, correlation range, expressibility, and effective capacity**, including:
 - Meyer–Wallach global entanglement,
@@ -50,7 +46,7 @@ These metrics are used to analyze *how* information is distributed and propagate
 
 ---
 
-### Qualitative Observations
+## Qualitative Observations
 
 Preliminary analyses indicate that:
 - entanglement and correlation patterns closely reflect the intended circuit connectivity,
@@ -58,17 +54,3 @@ Preliminary analyses indicate that:
 - while dilated architectures induce structured long-range correlations.
 
 The focus of the study is on understanding these **architectural and geometric differences**, rather than claiming immediate performance superiority.
-
-
-## Navigation
-- [Todo](todo.md) - Task queue
-- [Decisions](decisions/) - Key decisions
-- [Meetings](meetings/) - Meeting notes and summaries
-- [Weekly](weekly/) - Weekly progress
-<!-- Latest Weekly: updated manually -->
-
-## Quick Links
-- [Working Notes](../working_notes/) - Literature, notes, and research materials
-- [Experiments](../experiments/) - Experiment configurations and results
-
-
