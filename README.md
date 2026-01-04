@@ -60,8 +60,8 @@ focused on exploring variants of Quantum Dilated Convolutional Neural Networks (
 ```
 
 ## Quick start
-[Docs](/docs/index.md)
-[Prior Lab Work](https://github.com/JHPark9090/QuantumDilatedCNN.git)
+- [Docs](/docs/index.md)
+- [Prior Lab Work](https://github.com/JHPark9090/QuantumDilatedCNN.git)
 
 
 All files and the directiry structure are part of an ongoing project and may be modified at any time.
