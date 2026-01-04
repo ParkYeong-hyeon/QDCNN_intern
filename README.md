@@ -29,7 +29,6 @@ focused on exploring variants of Quantum Dilated Convolutional Neural Networks (
 │   │   └── run.sh
 ├── working_notes
 │   ├── experiment_design/
-│   ├── experiment_design/
 │   │   ├── analysis_plan/
 │   │   ├── baselines/
 │   │   ├── benchmarks/
