@@ -1,73 +1,115 @@
+> Literature note for @Zhang2024 
 # Absence of Barren Plateaus in Finite Local-Depth Circuits with Long-Range Entanglement
 
-**Source**: Zhang et al., *PRL* (2024)  
-**Bib**: @Zhang2024  
+**Venue**: Physical Review Letters (2024)  
+**Citation key**: @Zhang2024  
 **Link**: https://link.aps.org/doi/10.1103/PhysRevLett.132.150603
 
-
 ## Summary
-Conventional variational quantum algorithms suffer from the barren plateau problem in **deep circuits**, making the preparation of long-range entangled states difficult. This work introduces the concept of **local depth** and defines **Finite Local-Depth Circuits (FLDCs)**, in which the number of non-commuting gates acting on each qubit is bounded. Despite being globally deep, <u>**FLDCs exhibit gradient variances that do not vanish with system size and are capable of generating long-range entangled states, as demonstrated through both theoretical lower bounds and numerical simulations.**</u>
+
+기존의 변분 양자 알고리즘(VQA)은 **깊은 회로(deep circuits)**에서 **barren plateau 문제**를 겪으며, 이로 인해 **장거리 얽힘(long-range entanglement, LRE)** 상태의 준비가 매우 어려워진다. 본 논문은 **국소 깊이(local depth)**라는 개념을 도입하고, 각 큐비트에 작용하는 **비가환 게이트의 개수가 유한하게 제한된 회로**인 **유한 국소 깊이 회로(Finite Local-Depth Circuits, FLDCs)**를 정의한다.
+
+FLDC는 전역적으로는 깊은 회로일 수 있음에도 불구하고, **그래디언트 분산이 시스템 크기에 따라 소멸하지 않으며**, 이론적 하한 증명과 수치 시뮬레이션을 통해 **장거리 얽힘 상태를 생성할 수 있음**을 보인다. 이는 FLDC가 barren plateau 문제를 회피하면서도 높은 표현력을 유지할 수 있음을 의미한다.
+
+---
 
 ## Key Contributions
-> In essence, this paper introduces FLDCs as a theoretically robust and practically effective class of quantum circuits that can overcome the barren plateau problem while retaining the expressibility needed for complex quantum states, thus paving the way for more efficient and powerful VQAs.
+
+> 본질적으로 이 논문은 FLDC를 barren plateau 문제를 극복하면서도 복잡한 양자 상태를 표현할 수 있는 이론적으로 견고하고 실용적으로 효과적인 회로 계층으로 제시하며, 보다 효율적이고 강력한 변분 양자 알고리즘으로 나아갈 수 있는 경로를 제시한다.
+
 ### Theoretical Proof of Barren Plateau Absence
-- **General Lower Bound on Gradient Variance**: The paper rigorously proves a general <u>lower bound</u> on the variance of circuit gradients for arbitrary quantum circuits composed of <u>local 2-designs.</u> This framework unifies the understanding of gradient scaling behaviors across various architectures 
-- **Absence of Barren Plateaus in FLDCs**: A central contribution is the proof that FLDCs, when used with local Hamiltonians, are free from barren plateaus. This is achieved by demonstrating that the 'length' and 'head width' of certain paths in these circuits can be upper bounded, preventing the exponential decay of gradients with system size. 
-### Characterization of Finite Local-Depth Circuits (FLDCs):
-- **Definition of Local Depth**: The paper identifies and emphasizes the critical role of 'local depth' as a key circuit feature determining the trainability of Parameterized Quantum Circuits (PQCs). Local depth refers to the number of non-commuting gates acting on individual qubits, distinct from conventional global depth 
-- **Expressibility for Long-Range Entanglement (LRE)**: FLDCs are shown to possess strong expressibility, capable of generating LRE states, including topologically ordered states, despite having finite local depths. This contrasts with shallow circuits that typically only produce short-range entangled (SRE) states 
-- **Entanglement Area Law and PEPS Subclass**: FLDCs composed of spatially local gates preserve the entanglement area law, making them a powerful and accessible subclass of Projected Entangled Pair States (PEPS). The local depth in FLDCs effectively acts as the bond dimension in this context
-Non-Classical Simulability and Quantum Advantage
-Hardness of Classical Simulation: The paper highlights that FLDCs, especially in two and higher dimensions, cannot generally be simulated efficiently by existing tensor network methods to estimate local observables. This is due to their large global depth and complex loop structures, which can lead to polynomially large tree width. This suggests that FLDCs hold promise for achieving quantum advantage in ground state preparation tasks.
+
+* **그래디언트 분산의 일반적 하한 제시**
+  국소 2-design으로 구성된 임의의 양자 회로에 대해, 회로 그래디언트 분산의 **일반적인 하한(lower bound)**을 엄밀하게 증명한다. 이 프레임워크는 다양한 회로 아키텍처에서의 그래디언트 스케일링 거동을 통합적으로 이해할 수 있게 한다.
+* **FLDC에서의 barren plateau 부재 증명**
+  국소 해밀토니안과 함께 사용될 때 FLDC에서는 barren plateau가 발생하지 않음을 증명한다. 이는 회로 내 특정 경로의 ‘길이(length)’와 ‘머리 폭(head width)’이 상한으로 제한됨을 보임으로써, 그래디언트가 시스템 크기에 따라 지수적으로 감소하지 않음을 보이는 방식으로 이루어진다.
+
+### Characterization of Finite Local-Depth Circuits (FLDCs)
+
+* **국소 깊이(local depth)의 정의**
+  각 큐비트에 작용하는 비가환 게이트의 수를 의미하는 ‘국소 깊이’를, 기존의 전역 깊이(global depth)와 구별되는 핵심 회로 특성으로 정의한다. 국소 깊이는 매개변수화된 양자 회로(PQC)의 학습 가능성을 결정하는 핵심 요소로 강조된다.
+* **장거리 얽힘에 대한 표현력**
+  FLDC는 국소 깊이가 유한함에도 불구하고, 위상적으로 정렬된 상태를 포함한 장거리 얽힘 상태를 생성할 수 있는 강한 표현력을 지닌다. 이는 일반적으로 단거리 얽힘(SRE) 상태만 생성할 수 있는 얕은 회로와 대비된다.
+* **얽힘 면적 법칙과 PEPS 부분집합**
+  공간적으로 국소적인 게이트로 구성된 FLDC는 얽힘 면적 법칙을 만족하며, 이에 따라 해당 공간 차원에서의 **PEPS(Projected Entangled Pair States)**의 한 부분집합으로 해석될 수 있다. 이때 국소 깊이는 PEPS에서의 결합 차원(bond dimension)에 대응하는 역할을 한다.
+
+### Non-Classical Simulability and Quantum Advantage
+
+* **고전적 시뮬레이션의 난이도**
+  특히 2차원 이상에서의 FLDC는 큰 전역 깊이와 복잡한 루프 구조로 인해 트리 폭(tree width)이 다항적으로 커질 수 있으며, 이로 인해 국소 관측량의 기대값을 고전적 텐서 네트워크 방법으로 효율적으로 계산하기 어렵다. 이는 FLDC가 바닥 상태 준비 문제에서 양자 이점을 달성할 가능성을 시사한다.
 
 ### Numerical Validation
-- **Demonstrated Effectiveness**: Extensive numerical simulations, particularly using the generalized 2D toric code model, validate the analytical results. These simulations demonstrate the effectiveness of variational training using FLDCs and show their superior performance compared to both finite depth circuits (FDCs) and general linear depth circuits (GLDCs) in preparing LRE ground states.
-- **Gradient Variance Behavior**: Numerical experiments confirm that the gradient variance in a 1D FLDC ansatz remains almost constant with system size, while decaying exponentially with path length (Δk), a behavior consistent with the absence of barren plateaus 
+
+* **수치적 검증**
+  일반화된 2차원 토릭 코드 모델을 이용한 광범위한 수치 시뮬레이션을 통해 이론적 결과를 검증한다. FLDC는 유한 깊이 회로(FDC) 및 일반 선형 깊이 회로(GLDC)와 비교하여 장거리 얽힘 바닥 상태를 준비하는 데 있어 우수한 성능을 보인다.
+* **그래디언트 분산 거동**
+  1차원 FLDC ansatz에서 그래디언트 분산은 시스템 크기에 따라 거의 일정하게 유지되며, 경로 길이(Δk)에 대해서만 지수적으로 감소함을 보인다. 이는 barren plateau가 부재함을 뒷받침하는 결과이다.
+
+---
 
 ## Methodology
 
-> The paper employs a combination of theoretical analysis and numerical simulations to characterize Finite Local-Depth Circuits (FLDCs) and demonstrate their advantages in variational quantum algorithms (VQAs).
+> 본 논문은 이론적 분석과 수치 시뮬레이션을 결합하여 FLDC의 특성과 변분 양자 알고리즘에서의 장점을 규명한다.
 
 ### Theoretical Framework and Definitions
-- **Problem Identification**: The research addresses the challenge of barren plateaus in deep quantum circuits, which hinder the optimization of VQAs for preparing long-range entangled (LRE) states. It notes that while shallow circuits avoid barren plateaus, they cannot prepare LRE states, necessitating circuits of at least linear depth.
-- **Defining Local Depth**: The authors introduce and define 'local depth' as a crucial circuit characteristic, referring to the number of non-commuting gates acting on individual qubits, distinct from the conventional 'global depth'. FLDCs are then defined as circuits where this maximum local depth does not scale with the system size, allowing them to be globally deep and generate LRE states.
-- **Gradient Variance Lower Bound**: A general lower bound on the variance of circuit gradients is derived for arbitrary quantum circuits composed of local 2-designs. This bound shows that the contribution from each Hamiltonian subterm decays exponentially with the 'length' and 'head width' of paths on the circuit, which are geometric concepts related to time-ordered sequences of connected blocks.
-- **Proof of Barren Plateau Absence**: For FLDCs and local Hamiltonians, the 'length' and 'head width' of these paths are shown to be upper-bounded. This theoretical finding leads to the conclusion that FLDCs are free from barren plateaus, as the gradient variance does not vanish exponentially with system size. Specifically, the gradient variance is lower bounded by $Var_{U}[C] \ge 4^{-\beta r \chi^{2}}$.
-- **Expressibility and Entanglement Properties**: The paper theoretically establishes that FLDCs can generate LRE states and preserve the entanglement area law, positioning them as a subclass of Projected Entangled Pair States (PEPS).
-- **Non-Classical Simulability Analysis**: The methodology includes an analysis of the classical simulability of FLDCs. It is argued that FLDCs, particularly in two and higher dimensions, are generally hard to simulate classically for local observable expectations due to their large global depth and complex loop structures, implying potential for quantum advantage.
+
+* **문제 설정**
+  깊은 양자 회로에서 발생하는 barren plateau 문제가 장거리 얽힘 상태 준비를 방해한다는 점을 출발점으로 삼는다. 얕은 회로는 barren plateau를 피할 수 있지만 LRE 상태를 생성할 수 없으므로, 최소한 선형 깊이를 가지는 회로가 필요함을 지적한다.
+* **국소 깊이 정의**
+  국소 깊이를 각 큐비트에 작용하는 비가환 게이트의 수로 정의하며, 시스템 크기에 따라 스케일하지 않는 경우 FLDC로 분류한다. 이를 통해 전역적으로 깊으면서도 학습 가능한 회로를 구성할 수 있음을 보인다.
+* **그래디언트 분산 하한 도출**
+  국소 2-design으로 구성된 회로에 대해, 그래디언트 분산이 회로 경로의 ‘길이’와 ‘머리 폭’에 따라 지수적으로 감소함을 보이는 일반적 하한을 도출한다.
+* **barren plateau 부재 증명**
+  FLDC와 국소 해밀토니안의 경우 이러한 경로 특성이 상한으로 제한됨을 보여, 그래디언트 분산이 시스템 크기에 따라 소멸하지 않음을 증명한다. 그 결과
+  [
+  \mathrm{Var}_{U}[C] \ge 4^{-\beta r \chi^{2}}
+  ]
+  라는 하한을 얻는다.
+* **표현력 및 얽힘 특성**
+  FLDC가 LRE 상태를 생성할 수 있으며, 얽힘 면적 법칙을 만족함을 이론적으로 보인다.
+* **고전적 시뮬레이션 가능성 분석**
+  고차원 FLDC는 고전적으로 효율적인 시뮬레이션이 일반적으로 어렵다는 점을 논증한다.
 
 ### Numerical Validation
-- **Model System**: The generalized 2D toric code model under an external field is used for numerical experiments to validate the theoretical findings. This model is chosen because its ground state near the zero-field limit is topologically ordered and experiences a quantum phase transition to a short-range entangled state.
-- **Circuit Ansatzes**: The numerical simulations compare the variational performance of FLDCs against finite depth circuits (FDCs) and general linear depth circuits (GLDCs). The FLDC ansatz is designed to be similar to the theoretically defined structure, with each two-qubit block being a general Cartan decomposition.
-- **Performance Metrics**: The primary metrics evaluated include the converged energy (E/N) and the topological entanglement entropy ($S_{topo}$) to assess the ability of different circuit classes to prepare LRE ground states. The gradient variance behavior with system size and path length is also numerically investigated to confirm the absence of barren plateaus.
-- **Implementation**: Numerical experiments are implemented using TensorCircuit.
 
-By combining these rigorous theoretical derivations with supportive numerical evidence, the paper provides a comprehensive understanding of FLDCs' properties and their potential utility in VQAs.
+* **모델 시스템**
+  외부 장 하에서의 일반화된 2차원 토릭 코드 모델을 사용한다.
+* **회로 Ansatz 비교**
+  FLDC, FDC, GLDC를 비교하여 변분 성능을 평가한다. FLDC는 이론적 정의에 맞게 설계되며, 각 2큐비트 블록은 일반적인 Cartan 분해를 따른다.
+* **평가 지표**
+  수렴된 에너지(E/N), 위상 얽힘 엔트로피($S_{topo}$), 그래디언트 분산의 시스템 크기 의존성 등을 평가한다.
+* **구현**
+  수치 실험은 TensorCircuit을 이용해 수행한다.
+
+---
 
 ## Results
 
-> The study presents significant theoretical and numerical results demonstrating the absence of barren plateaus in Finite Local-Depth Circuits (FLDCs) and their effectiveness in variational quantum algorithms (VQAs).
+> 본 연구는 FLDC에서 barren plateau가 부재함을 이론적·수치적으로 명확히 보여준다.
 
 ### Theoretical Results
-- ### Absence of Barren Plateaus
-    The paper provides a general lower bound on the variance of circuit gradients for arbitrary quantum circuits composed of local 2-designs. Based on this framework, it is proven that barren plateaus are absent in training finite local-depth circuits (FLDC) for the ground states of local Hamiltonians. This is crucial because barren plateaus, characterized by exponentially vanishing circuit gradients with system size, can hinder optimization in VQAs . The lower bound for the gradient variance is given by $Var_{U}[C] \ge 4^{-\beta r \chi^{2}}$, where $\chi$ is the maximum local depth, $\beta$ is the maximum block size, and $r$ is the maximum interaction range of the Hamiltonian.
 
-- ### Expressibility for Long-Range Entanglement (LRE)
-    FLDCs are shown to possess strong expressibility, capable of generating long-range entangled ground states, such as topologically ordered states. This is possible even though their local depths are finite, distinguishing them from shallow circuits that typically only produce short-range entangled states . The local depth is identified as a critical circuit feature determining trainability.
-
-- ### Entanglement Area Law and PEPS Subclass
-    A significant feature of FLDCs composed of spatially local gates is that the generated quantum states satisfy the entanglement area law. This characteristic makes them a subclass of projected entangled pair states (PEPS) of the corresponding spatial dimension, with the local depth acting as the bond dimension.
-
-- ### Non-Classical Simulability
-    The study concludes that FLDCs, particularly in two and higher dimensions, cannot generally be simulated efficiently by existing tensor network methods to estimate local observables. This is due to their large global depth and complex loop structures that can lead to polynomially large tree width, making classical simulation hard. This suggests that FLDCs are potentially relevant for achieving quantum advantage in ground state preparation.
+* **barren plateau 부재**
+  국소 2-design 회로에 대한 그래디언트 분산 하한을 바탕으로, FLDC가 국소 해밀토니안의 바닥 상태 학습에서 barren plateau를 겪지 않음을 증명한다.
+* **장거리 얽힘에 대한 표현력**
+  FLDC는 유한한 국소 깊이를 가지면서도 위상적으로 정렬된 장거리 얽힘 상태를 생성할 수 있음을 보인다.
+* **얽힘 면적 법칙 및 PEPS 해석**
+  FLDC는 PEPS의 부분집합으로 해석 가능하며, 국소 깊이는 결합 차원에 해당한다.
+* **비고전적 시뮬레이션 난이도**
+  고차원 FLDC는 고전적 방법으로 효율적 시뮬레이션이 어렵다는 결론을 도출한다.
 
 ### Numerical Validation
-- ### Verification of Barren Plateau Absence
-    Numerical evaluations confirm the absence of barren plateaus in FLDCs. For a 1D FLDC ansatz, the gradient variance remains almost constant with the system size, while it decays exponentially with the path length (Δk). This behavior is consistent with findings in isometric tensor networks, and the exponential decay with Δk does not indicate poor trainability as long as some gradients remain non-zero.
 
-- ### Superior Performance in VQE
-    Using the generalized 2D toric code model, FLDCs demonstrate prominently better performance in VQE compared to both finite depth circuits (FDCs) and general linear depth circuits (GLDCs) . Numerical results show that the energies obtained by FLDCs almost coincide with exact values from exact diagonalization (ED). In contrast, GLDCs show poor trainability, and FDCs, while barren-plateau-free, lack the expressibility to faithfully represent LRE states, performing well only in the large field limit but deviating near the zero-field limit. The topological entanglement entropy ($S_{topo}$) results also support these findings.
+* **barren plateau 부재 확인**
+  1차원 FLDC에서 그래디언트 분산은 시스템 크기에 따라 거의 변하지 않음을 확인한다.
+* **VQE 성능 우수성**
+  2차원 토릭 코드 모델에서 FLDC는 ED 결과와 거의 일치하는 에너지를 달성하며, GLDC보다 훨씬 우수하고 FDC보다 표현력이 뛰어남을 보인다. 위상 얽힘 엔트로피 결과 역시 이를 뒷받침한다.
 
-In summary, the paper successfully establishes FLDCs as a promising class of quantum circuits that overcome the barren plateau problem while retaining the necessary expressibility for complex quantum states, supported by both rigorous theoretical proofs and comprehensive numerical simulations.
+---
 
 ## Notes and Thoughts
+
+본 논문은 **“깊이 = 학습 불가능”이라는 기존 통념을 국소 깊이라는 개념을 통해 정면으로 반박**한다.
+QCNN, MERA 유사 구조, 혹은 파라미터 공유를 갖는 계층적 회로를 설계할 때, **전역 깊이가 아니라 ‘각 큐비트가 겪는 비가환 연산의 수’가 학습성과 표현력을 동시에 좌우한다는 점**을 명확히 이론화한 점에서 매우 중요하다.
+
+특히 FLDC를 PEPS 관점에서 해석한 부분은, **QCNN·MERA·텐서 네트워크·VQA를 하나의 구조적 언어로 연결**해 주며, 향후 “학습 가능한 장거리 얽힘 회로” 설계의 기준점을 제공한다.

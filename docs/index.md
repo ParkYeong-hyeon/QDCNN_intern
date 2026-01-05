@@ -68,7 +68,8 @@ The focus of the study is on understanding these **architectural and geometric d
 <!-- Latest Weekly: updated manually -->
 
 ## Quick Links
-- [Working Notes](../working_notes/) - Literature, notes, and research materials
+- [Concepts](../working_notes/concepts/) - Several concepts essential to understanding project
 - [Experiments](../experiments/) - Experiment configurations and results
+
 
 
