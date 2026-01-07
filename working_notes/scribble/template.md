@@ -1,3 +1,4 @@
+> Type: Exploratory thought (not finalized, not a claim)
 # 2025-01-03 — 
 
 ## [15:15] 양자 데이터

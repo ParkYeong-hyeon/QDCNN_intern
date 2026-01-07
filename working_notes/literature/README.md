@@ -3,7 +3,6 @@
 ## Purpose
 
 This directory contains notes and summaries of research papers and articles relevant to the project.
-컨셉 중심으로 이해하는 게 중요.
 
 ## Format
 

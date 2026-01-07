@@ -24,11 +24,3 @@ TBD
 
 TBD
 
-## Citations
-
-Several works have discussed this issue
-[@HuangPreskill2025; @MonnetQCNN2024].
-
-The corresponding BibTeX entries are maintained in
-[bib/references.bib](bib/references.bib), which serves as the single source of
-truth for bibliographic metadata.

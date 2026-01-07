@@ -54,8 +54,13 @@
 
 ## Quick start
 ### 기반이 되는 source repo
-- [Q-hydra]()
+- [Q-hydra](https://github.com/JHPark9090/Quantum-Hydra-Mamba)
 - [QDCNN](https://github.com/JHPark9090/QuantumDilatedCNN.git) 
+
+### 기반이 되는 knownledge base
+- [Q-hydra](https://notebooklm.google.com/notebook/bb21fe2d-00b4-4c66-9710-c60502b1f835?authuser=1)
+
+
 
 
 본 저장소의 모든 파일 및 디렉터리 구조는 진행 중인 프로젝트의 일부로서, 향후 변경될 수 있다.
