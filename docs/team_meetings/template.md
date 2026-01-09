@@ -12,6 +12,9 @@
 
 ---
 
+## Given Context
+
+
 ## Emerging Ideas / Directions
 
 -  

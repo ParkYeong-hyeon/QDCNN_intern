@@ -1,17 +1,91 @@
-# Weekly Update — 2026 W01
+# Weekly Update — YYYY-W##
 
-## Focus
-- QCNN pooling 구조에서 long-range entanglement 영향 분석
+**Week**: YYYY-MM-DD to YYYY-MM-DD  
+**Projects**: QDCNN | Quantum Hydra | Shared
 
-## Key observations
-- @ZhangBarrenPlateau2024: finite-depth + long-range entanglement 조건
-- 기존 pooling ansatz는 해당 조건을 깨는 것으로 보임
+---
 
-## Decisions
-- pooling 구조 2종 baseline 실험 진행
+## Executive Summary
 
-## Next steps
-- noise 포함 effective volume 측정
+Brief high-level summary of the week's progress, key achievements, and status.
 
-## Questions
-- pooling depth vs entanglement length trade-off?
+---
+
+## Progress by Project
+
+### QDCNN
+- **Status**: [On track | At risk | Blocked]
+- **Key accomplishments**:
+  - 
+- **Blockers/Issues**:
+  - 
+
+### Quantum Hydra
+- **Status**: [On track | At risk | Blocked]
+- **Key accomplishments**:
+  - 
+- **Blockers/Issues**:
+  - 
+
+### Shared
+- **Status**: [On track | At risk | Blocked]
+- **Key accomplishments**:
+  - 
+- **Blockers/Issues**:
+  - 
+
+---
+
+## Key Metrics / Results
+
+- **Experiments completed**: 
+- **Papers read**: 
+- **Code commits**: 
+- **Other metrics**: 
+
+---
+
+## Decisions Made
+
+- 
+- 
+
+---
+
+## Next Week Plan
+
+### QDCNN
+- [ ] 
+- [ ] 
+
+### Quantum Hydra
+- [ ] 
+- [ ] 
+
+### Shared
+- [ ] 
+- [ ] 
+
+---
+
+## Blockers & Risks
+
+- **Current blockers**:
+  - 
+- **Risks identified**:
+  - 
+
+---
+
+## Notes & Observations
+
+- 
+- 
+
+---
+
+## References
+
+- [Meeting notes](../team_meetings/)
+- [Experiment logs](../../working_notes/)
+- [Related documents]()

@@ -18,7 +18,7 @@ For mid-to-long-term planning, experiment queues, and structured task management
         - [ ] @Huang2025
         - [x] @Gu2024  # 여기 저널 뭐가 기준인지 다시 확인하기
 
-- [ ] Research about quantum data and create a github PR *(paused - 이후 GitHub issue으로 옮길 것. 양자 벤치마크 관련해서 개인적인 조사로.)*
+- [ ] Research about quantum data and create a github PR *(paused - 이후 GitHub issue으로 옮길 것. 양자 벤치마크 관련해서 좀 더 개인적인 조사)*
 
 ---
 ## Done (Recent)
