@@ -50,4 +50,4 @@ TBD
 
 ## Citations
 
-See [[../../literature/bib/references.bib]] for BibTeX entries.
+See [references.bib](../../literature/bib/references.bib) for BibTeX entries.

@@ -1,6 +1,6 @@
 # Quantum Metrics
 
-**Related concepts**: [[quantum_matrics]], [[effective_volume]]  
+**Related concepts**: [quantum_matrics](quantum_matrics.md), [effective_volume](effective_volume.md)  
 **Key papers**: [@Zhang2024]  
 **Links**: [Absence of Barren Plateaus in Finite Local-Depth Circuits with Long-Range Entanglement](../literature/2026-01-03_Absence_of_Barren_Plateaus_in_Finite_Local-Depth%20Circuits_with_Long-Range_Entanglement.md)
 
@@ -48,5 +48,5 @@ Relevant works discussing this concept:
 [@Zhang2024].
 
 The corresponding BibTeX entries are maintained in
-[[../literature/bib/references.bib]], which serves as the single source of
+[references.bib](../literature/bib/references.bib), which serves as the single source of
 truth for bibliographic metadata.

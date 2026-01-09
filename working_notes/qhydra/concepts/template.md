@@ -1,6 +1,6 @@
 # Concept Name
 
-**Related concepts**: [[related_concept_1]], [[related_concept_2]]  
+**Related concepts**: [related_concept_1](related_concept_1.md), [related_concept_2](related_concept_2.md)  
 **Key papers**: [@AuthorYear; @AuthorYear]  
 **Links**: [relevant_link](url)
 
@@ -58,5 +58,5 @@ Relevant works discussing this concept:
 [@AuthorYear; @AuthorYear].
 
 The corresponding BibTeX entries are maintained in
-[[../literature/bib/references.bib]], which serves as the single source of
+[references.bib](../literature/bib/references.bib), which serves as the single source of
 truth for bibliographic metadata.

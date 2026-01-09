@@ -1,6 +1,6 @@
 # Local Depth (국소 깊이)
 
-**Related concepts**: [[barren_plateau]], [[quantum_metrics]], [[qdcnn]]  
+**Related concepts**: [barren_plateau](barren_plateau.md), [quantum_metrics](quantum_metrics.md), [qdcnn](qdcnn.md)  
 **Key papers**: [@Zhang2024]  
 **Links**: [Absence of Barren Plateaus in Finite Local-Depth Circuits with Long-Range Entanglement](../literature/2026-01-03_Absence_of_Barren_Plateaus_in_Finite_Local-Depth%20Circuits_with_Long-Range_Entanglement.md)
 
@@ -45,5 +45,5 @@ Relevant works discussing this concept:
 [@Zhang2024; @Cerezo2022].
 
 The corresponding BibTeX entries are maintained in
-[[../literature/bib/references.bib]], which serves as the single source of
+[references.bib](../literature/bib/references.bib), which serves as the single source of
 truth for bibliographic metadata.

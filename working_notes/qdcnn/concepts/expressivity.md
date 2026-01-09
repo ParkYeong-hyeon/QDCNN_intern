@@ -1,6 +1,6 @@
 # Expressivity
 
-**Related concepts**: [[trainability]], [[barren_plateau]], [[quantum_metrics]], [[effective_dimension]], [[capacity]]  
+**Related concepts**: [trainability](trainability.md), [barren_plateau](barren_plateau.md), [quantum_metrics](quantum_metrics.md), [effective_dimension](effective_dimension.md), [capacity](capacity.md)  
 **Key papers**: [@Funcke2020; @Haug2021; @Monnet2024]  
 **Links**: 
 - [Dimensional Expressivity Analysis](../literature/2026-01-09_Dimensional_Expressivity_Analysis_of_Parametric_Quantum_Circuits.md)
@@ -86,5 +86,5 @@ Relevant works discussing this concept:
 [@Funcke2020; @Haug2021; @Monnet2024].
 
 The corresponding BibTeX entries are maintained in
-[[../literature/bib/references.bib]], which serves as the single source of
+[references.bib](../literature/bib/references.bib), which serves as the single source of
 truth for bibliographic metadata.

@@ -2,7 +2,7 @@
 
 # Insight Title
 
-**Related to**: [[related_concept_1]], [[related_paper]]  
+**Related to**: [related_concept_1](related_concept_1.md), [related_paper](related_paper.md)  
 **Date**: YYYY-MM-DD  
 **Context**: Brief context of when/why this insight emerged
 
@@ -34,9 +34,9 @@ What does this insight suggest?
 
 ## Connections
 
-- Related concepts: [[concept_1]], [[concept_2]]
+- Related concepts: [concept_1](concept_1.md), [concept_2](concept_2.md)
 - Related papers: [@AuthorYear]
-- Related ideas: [[idea_1]]
+- Related ideas: [idea_1](idea_1.md)
 
 ## Notes
 

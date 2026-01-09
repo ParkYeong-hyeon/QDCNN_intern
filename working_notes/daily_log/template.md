@@ -13,9 +13,9 @@
   - 
   - 
 - **Connection to**: [Link to related files in `working_notes/`]
-  - e.g., `[[literature/2026-01-03_paperA.md]]`
-  - e.g., `[[ideas/experiments_queue.md]]`
-  - e.g., `[[analysis_plan/hypotheses.md]]`
+  - e.g., `[paperA](literature/2026-01-03_paperA.md)`
+  - e.g., `[experiments_queue](ideas/experiments_queue.md)`
+  - e.g., `[hypotheses](analysis_plan/hypotheses.md)`
 
 ### Paper 2: [Title]
 - **Source**: [Link to paper or reference in `literature/`]
@@ -31,9 +31,9 @@
 ### Idea 1: [Brief title]
 - **Description**: 
 - **Connection to**: 
-  - Related papers: `[[literature/...]]`
-  - Related plans: `[[analysis_plan/...]]`, `[[data_plan/...]]`
-  - Related ideas: `[[ideas/...]]`
+  - Related papers: `[literature/...](literature/...)`
+  - Related plans: `[analysis_plan/...](analysis_plan/...)`, `[data_plan/...](data_plan/...)`
+  - Related ideas: `[ideas/...](ideas/...)`
 - **Next steps**: 
 
 ### Idea 2: [Brief title]
@@ -52,13 +52,13 @@
 
 ### Cross-References
 - **Literature ↔ Analysis Plan**: 
-  - `[[literature/...]]` relates to `[[analysis_plan/...]]` because...
+  - `[literature/...](literature/...)` relates to `[analysis_plan/...](analysis_plan/...)` because...
   
 - **Ideas ↔ Benchmarks**: 
-  - `[[ideas/...]]` could be evaluated using `[[benchmarks/...]]` because...
+  - `[ideas/...](ideas/...)` could be evaluated using `[benchmarks/...](benchmarks/...)` because...
 
 - **Data Plan ↔ Baselines**: 
-  - `[[data_plan/...]]` considerations affect `[[baselines/...]]` in that...
+  - `[data_plan/...](data_plan/...)` considerations affect `[baselines/...](baselines/...)` in that...
 
 ---
 

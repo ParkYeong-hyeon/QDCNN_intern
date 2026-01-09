@@ -18,7 +18,7 @@ This directory contains research notes, literature reviews, and planning documen
 
 ## Usage
 
-- Use markdown links to connect related files: `[[path/to/file.md]]`
+- Use markdown links to connect related files: `[link text](path/to/file.md)`
 - Focus on concepts and understanding, not just facts
 - Daily logs should highlight connections between different papers and ideas
 - Keep notes concise and meaningful

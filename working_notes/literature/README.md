@@ -9,8 +9,8 @@ All BibTeX entries are maintained in `bib/references.bib`, which serves as the s
 ## Usage
 
 Reference the bibliography in your notes using:
-- `[[../literature/bib/references.bib]]` (from project folders like `qdcnn/concepts/`)
-- `[[../../literature/bib/references.bib]]` (from project subfolders like `qdcnn/literature/`)
+- `[references.bib](../literature/bib/references.bib)` (from project folders like `qdcnn/concepts/`)
+- `[references.bib](../../literature/bib/references.bib)` (from project subfolders like `qdcnn/literature/`)
 
 ## Citation Format
 
