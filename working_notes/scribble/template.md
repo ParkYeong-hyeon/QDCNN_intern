@@ -1,17 +1,24 @@
 > Type: Exploratory thought (not finalized, not a claim)
-# 2025-01-03 — 
 
-## [15:15] 양자 데이터
-### 트리거
-- 읽은 것: []()
-- 계기:
+# YYYY-MM-DD — 
 
-### 생각
+## [HH:MM] Topic
 
-### 연결
+**Metadata:**
+- `@project`: qdcnn | qhydra | shared
+- `@topic`: brief topic description
+- `@status`: raw | draft | matured
+- `@promote_to`: ideas/ | concepts/ | experiment_design/ | (leave empty if not ready)
+- `@promote_note`: (optional) 스크리블에 있는 내용 중 citation과 관련된 내용을 위주로 정리할 때 사용
+### Trigger
+- Read: []()
+- Context:
+
+### Thoughts
+
+### Connections
+
+### Questions / Pending
 
 
-### 질문 / 보류
-
-
-### next move
+### Next move
