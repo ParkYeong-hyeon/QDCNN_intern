@@ -17,6 +17,7 @@ Commands for specific workflows. These execute a procedure and complete:
 - `compare.md` - Compare items (models, results, papers, etc.)
 - `meeting_to_team.md` - Transform meeting log to structured team meeting summary
 - `find_by_tag.md` - Find files by tag (`@concept/`, `@metric/`, `@model/`)
+- `format.md` - Format markdown files (content-preserving, formatting only)
 
 ## Role-Based Commands (`roles/`)
 
@@ -40,6 +41,7 @@ Trigger commands by typing `@` followed by the file path in the chat.
 - `@docs/_cursor_commands/tasks/analyze.md` - Execute analyze command
 - `@docs/_cursor_commands/tasks/summarize.md` - Create concise summaries
 - `@docs/_cursor_commands/tasks/compare.md` - Compare items factually
+- `@docs/_cursor_commands/tasks/format.md` - Format markdown files (content-preserving)
 
 **Role-based commands** (perspective-oriented, may include subjective interpretation):
 - `@docs/_cursor_commands/roles/Reviewer.md, check this results table` - Adopt Reviewer role and review table

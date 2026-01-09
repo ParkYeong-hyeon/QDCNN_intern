@@ -26,6 +26,7 @@ When a task is executed:
 - `compare.md` - Compare items (models, results, papers, etc.)
 - `meeting_to_team.md` - Transform meeting log to structured team meeting summary
 - `find_by_tag.md` - Find files by tag (`@concept/`, `@metric/`, `@model/`)
+- `format.md` - Format markdown files (content-preserving, formatting only)
 
 ## Usage
 
