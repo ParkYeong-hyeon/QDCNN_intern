@@ -1,6 +1,8 @@
 # Project Overview  
 **Quantum Dilated CNN vs QCNN: A Comparative Study**
 
+애매한.. 나중에 수정할 것.
+
 > **Note**  
 > Most of the content in this section is adapted from prior laboratory work and is included primarily to provide contextual background for AI-assisted development (e.g., Cursor AI).  
 > This section does not represent original contributions.  
