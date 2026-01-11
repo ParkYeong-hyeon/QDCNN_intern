@@ -9,7 +9,7 @@
 - `@metric/` - Metrics used or analyzed (e.g., `@metric/QFI`, `@metric/MW_entanglement`)
 - `@model/` - Models or architectures (e.g., `@model/QCNN`, `@model/QDCNN`, `@model/QuantumHydra`)
 
-Example:
+Example:ㅋ
 ```
 @concept/self_attention
 @concept/trainability
